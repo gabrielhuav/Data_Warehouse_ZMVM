@@ -350,7 +350,7 @@
     'nav.grafo':    'CDMX graph',
     'nav.vecindad': 'CDMX adjacency',
     'tema.escom':  'Blue',
-    'tema.guinda': 'Guinda',
+    'tema.guinda': 'Maroon',
     'modo.claro':    'Light mode',
     'modo.oscuro':   'Dark mode',
     'modo.auto':     'Automatic',
