@@ -54,6 +54,7 @@
 
   const paginas = [
     ['ijcopi/mapa-zm.html', 'nav.zm'],
+    ['ijcopi/grafo-zm.html', 'nav.grafozm'],
     ['ijcopi/consultas.html', 'nav.consultas'],
     ['panel.html',    'nav.index'],
     ['mapa.html',     'nav.mapa'],
