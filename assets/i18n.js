@@ -33,25 +33,26 @@
 
   es: {
     /* ---------------- documento ---------------- */
-    'titulo.index':    'Consumo de Agua CDMX — Panel',
-    'titulo.mapa':     'Mapa de consumo — CDMX',
-    'titulo.grafo':    'Grafo de conocimiento — Consumo de Agua CDMX',
-    'titulo.vecindad': 'Vecindad territorial — Consumo de Agua CDMX',
+    'titulo.panel':    'Panel CDMX — Agua en la ZM de Ciudad de México',
+    'titulo.mapa':     'Mapa CDMX — Agua en la ZM de Ciudad de México',
+    'titulo.grafo':    'Grafo CDMX — Agua en la ZM de Ciudad de México',
+    'titulo.vecindad': 'Vecindad CDMX — Agua en la ZM de Ciudad de México',
 
-    'meta.index': 'Almacén de datos y grafo de conocimiento del consumo de agua en la Ciudad de México, construido con datos abiertos de SACMEX. Consulta por alcaldía y colonia, mapa coroplético y SPARQL en el navegador.',
+    'meta.panel': 'Almacén de datos y grafo de conocimiento del consumo de agua en la Ciudad de México, construido con datos abiertos de SACMEX. Consulta por alcaldía y colonia, mapa coroplético y SPARQL en el navegador.',
     'meta.mapa': 'Almacén de datos y grafo de conocimiento del consumo de agua en la Ciudad de México, construido con datos abiertos de SACMEX. Consulta por alcaldía y colonia, mapa coroplético y SPARQL en el navegador.',
     'meta.grafo': 'Explorador SPARQL sobre el grafo RDF materializado desde el almacén de datos de consumo de agua de la Ciudad de México.',
     'meta.vecindad': 'Recorrido de grafo sobre la relación agua:nearbyWithin1500m: elige una colonia y consulta sus vecinas con SPARQL.',
 
     /* ---------------- barra y pie ---------------- */
-    'barra.marca': 'Consumo de Agua CDMX',
+    'barra.marca': 'Agua en la ZM de Ciudad de México',
     'barra.lema':  'Almacén de datos y grafo de conocimiento territorial',
     'barra.tema':   'Tema de color',
     'barra.idioma': 'Idioma',
-    'nav.index':    'Panel',
-    'nav.mapa':     'Mapa',
-    'nav.grafo':    'Grafo de conocimiento',
-    'nav.vecindad': 'Vecindad territorial',
+    'nav.zm': 'Mapa metropolitano', 'nav.consultas': 'Consultas',
+    'nav.index':    'Panel CDMX',
+    'nav.mapa':     'Mapa CDMX',
+    'nav.grafo':    'Grafo CDMX',
+    'nav.vecindad': 'Vecindad CDMX',
     'tema.escom':  'Azul',
     'tema.guinda': 'Guinda',
     'modo.claro':    'Modo claro',
@@ -328,25 +329,26 @@
 
   en: {
     /* ---------------- document ---------------- */
-    'titulo.index':    'Mexico City Water Consumption — Dashboard',
-    'titulo.mapa':     'Consumption map — Mexico City',
-    'titulo.grafo':    'Knowledge graph — Mexico City Water Consumption',
-    'titulo.vecindad': 'Territorial adjacency — Mexico City Water Consumption',
+    'titulo.panel':    'CDMX dashboard — Water in the Mexico City Metropolitan Area',
+    'titulo.mapa':     'CDMX map — Water in the Mexico City Metropolitan Area',
+    'titulo.grafo':    'CDMX graph — Water in the Mexico City Metropolitan Area',
+    'titulo.vecindad': 'CDMX adjacency — Water in the Mexico City Metropolitan Area',
 
-    'meta.index': 'Data warehouse and knowledge graph of water consumption in Mexico City, built from SACMEX open data. Query by borough and neighbourhood, choropleth map and SPARQL in the browser.',
+    'meta.panel': 'Data warehouse and knowledge graph of water consumption in Mexico City, built from SACMEX open data. Query by borough and neighbourhood, choropleth map and SPARQL in the browser.',
     'meta.mapa': 'Data warehouse and knowledge graph of water consumption in Mexico City, built from SACMEX open data. Query by borough and neighbourhood, choropleth map and SPARQL in the browser.',
     'meta.grafo': 'SPARQL explorer over the RDF graph materialised from the Mexico City water-consumption data warehouse.',
     'meta.vecindad': 'Graph traversal over the agua:nearbyWithin1500m relation: pick a neighbourhood and query its neighbours with SPARQL.',
 
     /* ---------------- bar and footer ---------------- */
-    'barra.marca': 'Mexico City Water Consumption',
+    'barra.marca': 'Water in the Mexico City Metropolitan Area',
     'barra.lema':  'Data warehouse and territorial knowledge graph',
     'barra.tema':   'Colour theme',
     'barra.idioma': 'Language',
-    'nav.index':    'Dashboard',
-    'nav.mapa':     'Map',
-    'nav.grafo':    'Knowledge graph',
-    'nav.vecindad': 'Territorial adjacency',
+    'nav.zm': 'Metropolitan map', 'nav.consultas': 'Queries',
+    'nav.index':    'CDMX dashboard',
+    'nav.mapa':     'CDMX map',
+    'nav.grafo':    'CDMX graph',
+    'nav.vecindad': 'CDMX adjacency',
     'tema.escom':  'Blue',
     'tema.guinda': 'Guinda',
     'modo.claro':    'Light mode',

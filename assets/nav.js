@@ -53,7 +53,9 @@
   pintar();   // antes de renderizar, para que no parpadee
 
   const paginas = [
-    ['index.html',    'nav.index'],
+    ['ijcopi/mapa-zm.html', 'nav.zm'],
+    ['ijcopi/consultas.html', 'nav.consultas'],
+    ['panel.html',    'nav.index'],
     ['mapa.html',     'nav.mapa'],
     ['grafo.html',    'nav.grafo'],
     ['vecindad.html', 'nav.vecindad'],
@@ -62,7 +64,7 @@
 
   function construirBarra() {
     const enlaces = paginas.map(([h, k]) =>
-      `<a href="${h}"${h.toLowerCase() === actual ? ' aria-current="page"' : ''}>${T(k)}</a>`).join('');
+      `<a href="${h}"${h.split('/').pop().toLowerCase() === actual ? ' aria-current="page"' : ''}>${T(k)}</a>`).join('');
 
     /* Un segmentado igual que el del tema: dos botones excluyentes con
        aria-pressed. El nombre accesible es la propia etiqueta visible
@@ -120,9 +122,8 @@
       ${T('pie.portal')} &middot;
       ${T('pie.clima')} <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> (CC BY 4.0) &middot;
       ${T('pie.mapabase')} &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> (ODbL)<br>
-      ${T('pie.artefacto')} <em>Territorial Information Retrieval from Heterogeneous Open Data through the
-      Construction of a Data Warehouse for Water Management in Mexico City</em> &middot;
-      <a href="https://github.com/gabrielhuav/Data_Warehouse_static" target="_blank" rel="noopener">${T('pie.repo')}</a>`;
+      ${T('pie.artefacto')} <em>Territorial Information Retrieval from Heterogeneous Open Data: Extending a Water Data Warehouse from Mexico City to its Metropolitan Area</em> &middot;
+      <a href="https://github.com/gabrielhuav/Data_Warehouse_ZMVM" target="_blank" rel="noopener">${T('pie.repo')}</a>`;
     });
   }
 
